@@ -37,7 +37,7 @@ fun InicioView(navController: NavController, viewModel: UsuariosViewModel) {
         topBar = {
             CenterAlignedTopAppBar(
                 title = {
-                    Text(text = "Inicio View", color = Color.White, fontWeight = FontWeight.Bold)
+                    Text(text = "USUARIOS", color = Color.White, fontWeight = FontWeight.Bold)
                 },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primary

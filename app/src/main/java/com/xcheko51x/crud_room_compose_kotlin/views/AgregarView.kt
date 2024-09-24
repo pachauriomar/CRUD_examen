@@ -38,7 +38,7 @@ fun AgregarView(navController: NavController, viewModel: UsuariosViewModel) {
         topBar = {
             CenterAlignedTopAppBar(
                 title = {
-                    Text(text = "Agregar View", color = Color.White, fontWeight = FontWeight.Bold)
+                    Text(text = "Agregar Usuarios", color = Color.White, fontWeight = FontWeight.Bold)
                 },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primary

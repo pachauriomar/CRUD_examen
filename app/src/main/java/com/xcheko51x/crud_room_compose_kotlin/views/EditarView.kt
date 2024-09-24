@@ -38,7 +38,7 @@ fun EditarView(navController: NavController, viewModel: UsuariosViewModel, id: I
         topBar = {
             CenterAlignedTopAppBar(
                 title = {
-                    Text(text = "Editar View", color = Color.White, fontWeight = FontWeight.Bold)
+                    Text(text = "Editar Usuarios", color = Color.White, fontWeight = FontWeight.Bold)
                 },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primary
